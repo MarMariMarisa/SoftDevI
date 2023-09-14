@@ -1,0 +1,13 @@
+nouns - 
+planet,council,members,administrators,regions,
+chief administrator,departments,government,languages
+
+Administrator:
+    name - string
+    region - string
+    departments - list 
+    languages - list
+
+Council:
+    members - list
+    chief - string

@@ -1,0 +1,21 @@
+game,player,faction,card,deck,hand,score
+
+class card
+    name(Str)
+    cost int
+    faction Str
+    rarity str/int
+    attack pwr int
+    health int
+
+
+class player
+    score int(20)
+    resource points()
+    deck list
+    hand list
+    batallion
+    discared
+    
+    draw_card
+    take_turn

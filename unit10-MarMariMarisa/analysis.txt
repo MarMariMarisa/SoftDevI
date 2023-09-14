@@ -1,0 +1,20 @@
+book,library,patron,sheld,want_list,has_list,title,authormcopues
+patron_ID,patron_name,catalog (books by titles, books by authors)
+
+library 
+    book,patrons,shelf,books_by_titles,books_by_authors
+
+book
+    title (str),author (str), copies (int)
+
+patron
+     id,name,has,wants
+
+cardCatalog
+    books_by_titles
+    books_by_author
+
+checkout
+return_book
+find_book_by_author
+
