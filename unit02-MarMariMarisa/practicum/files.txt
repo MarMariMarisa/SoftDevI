@@ -1,0 +1,67 @@
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa
+$ df
+Filesystem           1K-blocks      Used Available Use% Mounted on
+C:/Program Files/Git 976759804 651025336 325734468  67% /
+D:                   976729088 246927488 729801600  26% /d
+P:                    52428796     96368  52332428   1% /p
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa
+$ mkdir practicum
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa
+$ cd practicum/
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa/practicum
+$ ls -la
+total 0
+drwxr-xr-x 1 student 197121 0 Aug 29 14:13 ./
+drwxr-xr-x 1 student 197121 0 Aug 29 14:09 ../
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa/practicum
+$ vi about_me.txt
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa/practicum
+$ about_me.txt
+bash: about_me.txt: command not found
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa/practicum
+$ cat about_me.txt
+Marisa Ortiz
+06/01/2004
+Philadelphia Pennsylvania
+Rio Romeo
+The Song of Achilles
+"Please excuse my ugly I should have chosen to be born more lovely"
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa/practicum
+$ cp about_me.txt about_me_copy.txt
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa/practicum
+$ cat about_me.
+cat: about_me.: No such file or directory
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa/practicum
+$ cat about_me_copy.txt
+Marisa Ortiz
+06/01/2004
+Philadelphia Pennsylvania
+Rio Romeo
+The Song of Achilles
+"Please excuse my ugly I should have chosen to be born more lovely"
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa/practicum
+$ ls -la
+total 256
+drwxr-xr-x 1 student 197121   0 Aug 29 14:13 ./
+drwxr-xr-x 1 student 197121   0 Aug 29 14:09 ../
+-rw-r--r-- 1 student 197121 149 Aug 29 14:15 about_me.txt
+-rw-r--r-- 1 student 197121 149 Aug 29 14:17 about_me_copy.txt
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa/practicum
+$ mv about_me.txt cd..
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa/practicum
+$ rm about_me_copy.txt
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa/practicum
+$ 

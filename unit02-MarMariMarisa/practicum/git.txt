@@ -1,0 +1,76 @@
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa (main)
+$ git version
+git version 2.37.1.windows.1
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   practicum/about_me.txt
+
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa (main)
+$ git commit practicum/ -m "Commiting"
+warning: in the working copy of 'practicum/about_me.txt', LF will be replaced by CRLF the next time Git touches it
+[main b200898] Commiting
+ 1 file changed, 6 insertions(+)
+ create mode 100644 practicum/about_me.txt
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa (main)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 489 bytes | 489.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/GCIS-123/unit02-MarMariMarisa.git
+   66c142d..b200898  main -> main
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa (main)
+$ cd practicum/
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa/practicum (main)
+$ rm about_me.txt
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa/practicum (main)
+$ cd ..
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    practicum/about_me.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa (main)
+$ git add practicum/
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa (main)
+$ git commit practicum/ -m "Commiting Deletion"
+[main b6f65ee] Commiting Deletion
+ 1 file changed, 6 deletions(-)
+ delete mode 100644 practicum/about_me.txt
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 330 bytes | 330.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/GCIS-123/unit02-MarMariMarisa.git
+   b200898..b6f65ee  main -> main
+
+student@SECLAB2-18 MINGW64 /d/SoftDevI/unit02-MarMariMarisa (main)
+$
+
